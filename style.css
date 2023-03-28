@@ -1,0 +1,238 @@
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+@media screen and (min-width: 771px) {
+    #card {
+        margin-top: 90%;
+        margin-left: 20%;
+        margin-bottom: 30%;
+    }
+   
+    #button {
+        position: absolute;
+        
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        
+        margin-left: 100px;
+        margin-top: 160px;
+        border: 2px solid #000000;
+
+    }
+    #button1 {
+        position: absolute;
+        color: #000000;
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        
+        margin-left: 150px;
+        margin-top: 160px;
+        border: 2px solid #000000;
+        
+    }
+    #button2 {
+        position: absolute;
+        
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+          
+        margin-left: 120px;
+        margin-top: 50%;
+        border: 2px solid #000000;
+
+    }
+    #button3 {
+        position: absolute;
+        color: #000000;
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+          
+        margin-left: 180px;
+        margin-top: 50%;
+        border: 2px solid #000000;
+        
+    }
+    #carousel {
+        margin-left: 10%;
+    }
+   
+    .carousel-inner {
+        display: flex;
+        margin-top: -20%;
+    }
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/4);
+    }
+    #glob {
+        width: 15%;
+        border-radius: 10px;
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+    #style {
+        padding-left: 30px;
+        padding-top: -250px;
+        position: relative;
+        width: 200%;
+        
+    }
+    #us {
+        padding-top: 150px;
+    }
+    #nav {
+        position: absolute;
+        margin-left: -35px;
+        margin-top: 15px;
+    }
+    #navigation {
+        z-index: 1;
+    }
+    #nav1 {
+        position: absolute;
+        font-size: 24px;
+        margin-left: 42%;
+        padding-top: 25px;
+    }
+    #vector {
+        padding-left: 20%;
+        margin-top: -80%;
+    }
+    #vector9 {
+        margin-top: -120%;
+        margin-left: 7%;
+    }
+    #eclipse1 {
+        margin-top: -80%;
+    }
+    #eclipse16 {
+        margin-top: -120%;
+        margin-left: 7%;
+    }
+    #vectori {
+        position: absolute;
+        right: 0;
+        z-index: 2;
+        margin-top: -7%;
+    }
+    #vectori1 {
+        z-index: 3;
+    }
+    #what {
+        margin-top: -40%;
+    }
+    #we {
+        margin-top: -22%;
+    }
+    #svg {
+        margin-top: -22%;
+        margin-left: 3%;
+    }
+}
+@media screen and (max-width: 771px) {
+    #card {
+        margin-bottom: 20%;
+    }
+    #button2 {
+        position: relative;
+        
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+          
+        
+        border: 2px solid #000000;
+
+    }
+    #button3 {
+        position: relative;
+        color: #000000;
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+          
+       
+        border: 2px solid #000000;
+        
+    }
+    #button {
+        position: relative;
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        padding: 5px;  
+        border: 2px solid #000000;
+
+    }
+    #button1 {
+        position: relative;
+        z-index: 2;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px;
+        padding: 5px;  
+        border: 2px solid #000000;
+        
+    }
+    .carousel-inner {
+        display: flex;
+    }
+    .carousel-item {
+        display: block;
+        margin-right: 0;
+        flex: 0 0 calc(100%/1);
+    }
+    #glob {
+        width: 15%;
+    }
+    #nav {
+        position: absolute;
+        margin-left: -35px;
+        margin-top: 15px;
+    }
+    #fluid {
+        padding-right: 0px;
+    }
+    #vector {
+        margin-top: -85%;
+        padding-left: 10%;
+    }
+    #mask {
+        padding-top: 50px;
+    }
+    #eclipse1 {
+        margin-top: -90%;
+    }
+    
+    #svg {
+        margin-top: -10%;
+        margin-left: 16%;
+    }
+    #eclipse16 {
+        margin-top: -125%;
+        margin-left: 7%;
+    }
+    #vector9 {
+        margin-top: -120%;
+        margin-left: 7%;
+    }
+    #glob {
+        width: 15%;
+        border-radius: 10px;
+        margin-left: 16px;
+        margin-top: 16px;
+    }
+}
